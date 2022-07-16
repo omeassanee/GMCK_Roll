@@ -14,7 +14,8 @@ public class Player : MonoBehaviour
     public float standingHeight = 2f;
     public float crouchingHeight = 1.25f;
     public float speed;
-    public float gravityStrength;  
+    public float gravityStrength;
+    
     
     void Start()
     {
@@ -50,5 +51,8 @@ public class Player : MonoBehaviour
         {            
             transform.localScale = normalScale;
         }        
+
+        
+
     }
 }
